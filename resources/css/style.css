@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 body {
-  background-color: #0e2a47;
+  background-color: #05200f;
   color: #fff;
 }
 .title {
@@ -97,4 +97,15 @@ button:active {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+#author {
+  font-size: 15px;
+  padding-left: 10px;
+  text-shadow: 0px 2px 6px white;
+}
+
+#authorlink {
+  text-decoration: none;
+  color: white;
 }

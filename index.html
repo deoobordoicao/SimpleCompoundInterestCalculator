@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/resources/css/style.css">
-  <title>Compound Interest Calculator</title>
-</head>
-<body>
-
-  <h1 class="title">Compound Interest Calculator</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <title>Compound Interest Calculator</title>
+  </head>
+  <body>
+    <h1 class="title">Compound Interest Calculator</h1>
     <form id="CompoundInterestCalculator">
       <label for="initBal">Loan Amount : </label>
-      <input name="initBal"
-        type="number"
-        id="InitialBalance"
-        placeholder="Initial Balance $"
-      />
+      <input name="initBal" type="number" id="InitialBalance" placeholder="Initial Balance $" />
       <label for="intRate">Interest Rate Per Annum : </label>
-      <input name ="intRate" type="number" id="InterestRate" placeholder="Interest Rate %" />
+      <input name="intRate" type="number" id="InterestRate" placeholder="Interest Rate %" />
       <label for="terms">Term (No. of Years) : </label>
-      <input name="terms"type="number" id="Years" placeholder="Years" />
+      <input name="terms" type="number" id="Years" placeholder="Years" />
       <label for="savings">Savings Per Month : </label>
-      <input name="savings"
-        type="number"
-        id="MonthlyContribution"
-        placeholder="Monthly Contribution $"
-      />
+      <input name="savings" type="number" id="MonthlyContribution" placeholder="Monthly Contribution $" />
       <button type="submit">Calculate</button>
     </form>
-    <h5 class="lblResult">Total Payables for <span id="yearTerms">0</span> year/s : </h5>
+    <h5 class="lblResult">Total Payables for <span id="yearTerms">0</span> year/s :</h5>
     <h3 class="title" id="Result"></h3>
 
-
-    <script src="/resources/js/script.js"></script>
-</body>
+    <a href="https://www.facebook.com/deobytecoda" id="authorlink"><h1 id="author">Deo Byte Coda</h1></a>
+    <script src="./resources/js/script.js"></script>
+  </body>
 </html>
